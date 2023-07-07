@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/signin"
@@ -54,6 +55,51 @@
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="234dp" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="128dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="LOGIN"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:layout_margin="28dp"
+        android:text="Forget Password"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:ignore="MissingConstraints" />
 
 
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="99dp"
+        android:src="@drawable/google"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="99dp"
+        android:src="@drawable/twitter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="99dp"
+        android:src="@drawable/fb"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="527dp" />
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
